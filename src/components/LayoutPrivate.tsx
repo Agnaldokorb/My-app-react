@@ -1,16 +1,16 @@
 import { ChakraProvider, Box, defaultSystem } from "@chakra-ui/react";
 import { Footer } from "./Footer";
-import Header from "./Header";
+import HeaderPrivate from "./HeaderPrivate";
 
-interface LayoutProps {
+interface LayoutPrivate {
   children: React.ReactNode;
 }
 
-export const Layout = ({ children }: LayoutProps) => {
+export const Layout = ({ children }: LayoutPrivate) => {
   return (
     <ChakraProvider value={defaultSystem}>
       <Box bg={'#90e0ef'} minHeight="100vh" display="flex" flexDirection="column">
-        <Header />
+        <HeaderPrivate />
         <Box flex="1">{children}</Box> {/* Conteúdo principal */}
         <Footer />
       </Box>
