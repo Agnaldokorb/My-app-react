@@ -21,7 +21,6 @@ export default function Header() {
         <Link color={'#00b4d8'} to="/">Home</Link>
         <Link color={'#00b4d8'} to="/about">About</Link>
         <Link color={'#00b4d8'} to="/contact">Contact</Link>
-        <Link color={'#00b4d8'} to="/login">Login</Link>
       </HStack>
     </Flex>
   );

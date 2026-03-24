@@ -16,17 +16,17 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
 
-        <Route path="/login" element={<Login />} />
-
         <Route path="/about" element={<About />} />
 
         <Route path="/contact" element={<Contact />} />
 
-        <Route path="private/home/:id" element={<PrivateHome />} />
+        <Route path="/login/:id" element={<Login />} />
 
-        <Route path="/private/service" element={<Service />} />
+        <Route path="/private/home/:id" element={<PrivateHome />} />
 
-        <Route path="/private/technology" element={<Techonology />} />
+        <Route path="/private/service/:id" element={<Service />} />
+
+        <Route path="/private/technology/:id" element={<Techonology />} />
         
         <Route path="*" element={<h1>404 Not Found</h1>} />
 

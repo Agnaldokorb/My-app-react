@@ -12,7 +12,7 @@ const Home = () => {
       <Layout>
         <Center paddingTop={16}>
           <SimpleGrid columns={2} gap={8} paddingTop={16}>
-            <h1>Bem vindo(a)!</h1>
+            
           </SimpleGrid>
         </Center>
       </Layout>
